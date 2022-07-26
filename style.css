@@ -1,0 +1,150 @@
+body{
+    background-color: aqua;
+}
+.nav{
+    background-color: #111;
+    list-style-type: none;
+    text-align: center;
+    margin: 10px;
+    padding: 0; 
+    
+}
+.nav li{
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+   
+}
+.nav li:hover{
+    background-color: #999;
+}
+.nav li a{
+    text-decoration: none;
+    color: white; 
+}
+.center{
+    border: 3px solid #aaf;
+}
+img{
+    float: right;
+
+}
+.center::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.ho p{
+    display: none;
+    background-color: yellow;
+    font-size: 22px;    
+}
+.ho:hover p{
+    display: block;    
+}
+.ex1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ddd;    
+    top: 0;
+    width: 100%;
+}
+.ex1 li{
+    float: left;
+}
+.ex1 a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+.ex1 a:hover{
+    background-color: #999;
+}
+.ex2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;    
+    width: 300px;
+    background-color:#1a1a00;
+    top: 0;
+}
+.ex2 li{
+    padding: 10px 3px;    
+}
+.ex2 li a{
+    display: block;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: white;
+}
+.ex2 li a:hover{
+    background-color: #111;
+}
+.dropbtn{
+    background-color: #40DB1B;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #aaf;
+    min-width: 160px;
+    box-shadow: 0 16px 16px 0 rgba(104, 143, 130, 0.459);
+    z-index: 1;
+
+}
+.dropdown-content a{
+    color: black;
+    padding: 12px 6px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover{
+    background-color: white;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropdown:hover .dropbtn{
+    background-color:  #4d6600;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 1px black;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+.form{
+    background-color: #aaa;
+    padding: 20px;
+    border-radius: 5px;
+}  
